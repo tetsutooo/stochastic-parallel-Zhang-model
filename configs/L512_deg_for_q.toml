@@ -1,0 +1,80 @@
+# 実行方法:
+# cargo run --release -- configs/L512_deg_for_q.toml
+
+init_steps  = 100000000
+steps       = 100000000
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.00
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.0001
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.001
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.005
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.01
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.02
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.03
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.04
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.06
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.08
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.10
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.15
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.20
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.25
+
+[[parameters]]
+system_size = 512
+sigma       = 0.00
+q           = 0.30

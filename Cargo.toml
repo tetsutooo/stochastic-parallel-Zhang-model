@@ -1,0 +1,16 @@
+[package]
+name = "stochastic_parallel_zhang_model"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+indicatif = "0.18"
+plotters = { version = "0.3", features = ["bitmap_gif"] }
+bincode = "1"
+serde = { version = "1", features = ["derive"] }
+toml = "1"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
