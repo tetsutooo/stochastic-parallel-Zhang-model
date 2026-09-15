@@ -1,4 +1,4 @@
-# Noisy Stochastic Parallel Zhang (SPZ) Sandpile on a Small-World Lattice
+# Noisy Stochastic Parallel Zhang (SPZ) Model on a Small-World Lattice
 
 Numerical simulation code for the noisy stochastic parallel Zhang (SPZ) sandpile model
 with Newman–Watts shortcuts.
